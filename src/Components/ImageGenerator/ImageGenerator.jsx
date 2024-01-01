@@ -11,6 +11,9 @@ const ImageGenerator = () => {
         if(inputRef.current.value===""){
             return 0;
         }
+        const response = await fetch(
+            "https://api.openai.com/v1/images/generations"
+        )
     }
 
   return (
@@ -32,3 +35,4 @@ const ImageGenerator = () => {
 }
 
 export default ImageGenerator
+// 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
