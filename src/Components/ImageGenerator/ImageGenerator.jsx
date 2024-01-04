@@ -19,8 +19,11 @@ const ImageGenerator = () => {
                     "Content-Type": "application/json",
                     Authorization:
                     "bearer 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",
-                    "USer-Agent": "Chrome"
-                }
+                    "USer-Agent": "Chrome",
+                },
+                body:JSON.stringify({
+                    PROMPT
+                })
             }
             
         )
